@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container h2 {
+    margin-bottom: 20px;
+    color: #1877f2;
+}
+.container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.container button:hover {
+    background-color: #155aaf;
+}

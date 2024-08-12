@@ -1,0 +1,45 @@
+#heading{
+    color:mediumvioletred
+}
+
+
+.h1{
+    color:red;
+}
+
+h1{
+    color:aquamarine;
+}
+
+.h1{
+    color:rgb(0,255,15);
+}
+
+.h1{
+    color:rgba(233, 23, 53, 510)
+}
+
+div{
+    color:blueviolet;
+}
+
+/* color inherited */
+
+
+#heading{
+    font-family:Georgia, 'Times New Roman', 
+     Times, serif;
+    
+}
+
+#para{
+    /* give space between two line */
+    line-height: 40px;
+    /* gives spacing between two words */
+    word-spacing: 10px;
+    /* gives spacing between two letter */
+    letter-spacing: 10px;
+}
+
+
+

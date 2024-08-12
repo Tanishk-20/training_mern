@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.container {
+    margin-top: 100px  ;
+    background-color: #62e0a2; /* Adjusted color to match the image */
+    padding: 80px 60px; /* Adjusted padding to match the image */
+    border-radius: 20px; /* Adjusted border-radius */
+    text-align: left; /* Aligned text to the left */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%; /* Adjusted width */
+    height: 400px;
+}
+
+h1 {
+    margin: 30;
+    font-size: 3em; /* Adjusted font size to match the image */
+    font-weight: bold; /* Made the font bold */
+    color: #000000; /* Adjusted color to match the image */
+}
+
+p {
+    margin: 20px 0 40px; /* Adjusted margin */
+    font-size: 1.2em; /* Adjusted font size */
+    color: #000000; /* Adjusted color */
+}
+
+button {
+    background-color: #ffffff;
+    margin-top: 60px;
+    color: #000000;
+    border: none;
+    padding: 15px 30px; /* Adjusted padding */
+    font-size: 1em; /* Adjusted font size */
+    border-radius: 30px; /* Adjusted border-radius */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Added box-shadow */
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
